@@ -1,7 +1,7 @@
 Package.describe({
   name: 'meteoreact:accounts',
   summary: 'Simple and intuative accounts view layer with react',
-  version: '1.2.4',
+  version: '1.2.4_1',
   documentation: 'README.md',
   git: 'https://github.com/royGil/accounts-react'
 })
@@ -17,7 +17,7 @@ Package.onUse(api => {
     'check'
   ], ['client', 'server'])
 
-  api.use('react-meteor-data@0.2.16', 'client')
+  api.use('react-meteor-data', 'client')
 
   api.use('service-configuration', { weak: true })
   api.use('http', 'server')
