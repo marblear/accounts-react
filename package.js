@@ -1,19 +1,19 @@
 Package.describe({
   name: 'meteoreact:accounts',
   summary: 'Simple and intuative accounts view layer with react',
-  version: '1.2.4_1',
+  version: '1.2.4_2',
   documentation: 'README.md',
   git: 'https://github.com/royGil/accounts-react'
 })
 
 Package.onUse(api => {
-  api.versionsFrom(['1.6.1', '2.3'])
+  api.versionsFrom(['1.6.1', '2.3', '3.0'])
 
   api.use([
     'ecmascript',
     'accounts-base',
     'accounts-password',
-    'mdg:validated-method@1.1.0',
+    'mdg:validated-method@1.3.0',
     'check'
   ], ['client', 'server'])
 
